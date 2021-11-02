@@ -1,0 +1,175 @@
+										MOBILE 
+
+.logo img
+{
+	width: 200px;
+	height: 50px;
+	padding-top: 20px;
+	margin-bottom: -30px;
+}
+
+/*SECTION OPÉRATION DE RÉSERVATION*/
+
+.reservation h2
+{
+	
+	
+	margin-left: 30px;
+}
+
+.button
+{
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.explore_button h3
+{
+	font-size: 15px;}
+
+.functioning h2
+{
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.functioning_list
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+	
+.number
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 320px;
+	margin-left: 0px;
+	text-align: center;
+	margin-bottom: -50px;
+}
+
+.functioning
+{
+	height: 350px;
+}
+
+
+/*SECTION RESTAURANT*/
+
+.restaurants h2
+{
+	text-align: left;
+}
+
+.card img
+{
+	height: 180px;
+	width: 330px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.card
+{
+	height: 260px;
+	width: 330px;
+	margin-left: 15px;
+	margin-top: 20px;
+	border-radius: 0px 0px 20px 20px;
+	background-color: ;
+}
+
+.lot1, .lot2
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.legend
+{
+	padding-left: 10px;
+	display: flex;
+	font-size: 15px;
+}
+
+.restaurant_name
+{
+	border-style: hidden;
+	width: 300px;
+	margin-bottom: -15px;
+}
+
+.fa-heart
+{
+	margin-left: -20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
+/*FOOTER*/
+
+footer
+{
+	margin-top: -30px;
+}
+
+footer h2
+{
+	font-size: 20px;
+	margin-left: -20px;
+}
+
+footer ul 
+{
+	display: flex;
+	flex-direction: column;
+}
+
+footer li 
+{
+	padding-right: 0px;
+	border-style: hidden;
+	margin-left: -60px;
+	margin-bottom: -25px;
+}
+
+
+/*INF A 350PX*/
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 0px et 350px */
+@media all and (min-width: 0px) and (max-width: 350px){
+
+
+.logo img
+{
+	text-align: center;
+	width: 250px;
+	margin-left: 40px;
+}
+
+.localisation, .reservation, .restaurants, footer
+{
+	width: 350px;
+}
+
+.functioning_list
+{
+	width: 300px;
+}
+
+.number
+{
+	margin-right: 120px;
+}
+}
+
+

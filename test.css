@@ -1,0 +1,29 @@
+@font-face
+{
+	font-family: 'Roboto';
+	src: url('Roboto.ttf')format('ttf');
+	src: url('Roboto.eot')format('eot');
+	src: url('Roboto.woff')format('woff');
+	src: url('Roboto.uvg')format('uvg');
+}
+
+@font-face
+{
+	font-family: 'Shrikland';
+	src: url('Shrikland.ttf')format('ttf');
+	src: url('Shrikland.eot')format('eot');
+	src: url('Shrikland.woff')format('woff');
+	src: url('Shrikland.uvg')format('uvg');
+}
+
+
+.bloc_page
+{
+	font-family: Roboto, Arial, Georgia, Verdana, Serif;
+}
+
+footer img 
+{
+	width: 20px;
+	height: 10px;
+}

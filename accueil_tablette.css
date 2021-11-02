@@ -1,0 +1,29 @@
+.logo img
+{
+	width: 400px;
+	margin-left: 400px;
+}
+
+.reservation, .functioning, .localisation, .restaurants, footer
+{
+	width: 1170px;
+}
+
+.button
+{
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.number
+{
+	margin-right: 565px;
+	margin-left: 565px;	
+}
+
+.lot1, .lot2
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+}
