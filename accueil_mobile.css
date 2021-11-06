@@ -45,6 +45,7 @@
 	margin-right: 10px;
 	margin-left: 20px;
 	margin-bottom: 30px;
+
 }
 	
 .number
@@ -55,6 +56,8 @@
 	margin-left: 0px;
 	text-align: center;
 	margin-bottom: -50px;
+	opacity: 0.7;
+
 }
 
 .functioning
@@ -169,7 +172,9 @@ footer li
 .number
 {
 	margin-right: 120px;
+	z-index: 10;
 }
+
 }
 
 
