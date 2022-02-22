@@ -4,8 +4,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="ohmyfoodmenu.css"/>
-        <link rel="stylesheet" href="menu_mobile.css" media="all and (max-width: 600px)">
-        <link rel="stylesheet" href="menu_tablette.css" media="all and (min-width: 601px) and (max-width: 1024px)">
         <title>Menu La palette du goût</title>
          <!--kit's code kit-->
         <script src="https://kit.fontawesome.com/4b04320c83.js" crossorigin="anonymous"></script>
@@ -18,7 +16,7 @@
 
             <header>
                 <div class="header">
-                    <a href="ohmyfood.html"><i class="fas fa-arrow-left"></i></a>
+                    <a href="accueil.html"><i class="fas fa-arrow-left"></i></a>
                     <div class="logo"><img src="images/logo/ohmyfood.png" alt="logo de ohmyfood"></div>
                 </div>
 
@@ -29,64 +27,153 @@
 
             <section class="menu">
 
-                <p class="title">La palette du goût<i class="far fa-heart"></i></p>
-
-                <div>
+                <p class="title">La palette du goût</p>
+                    <div class="card-icons">
+                        <i class="far fa-heart fa-2x empty"></i>
+                        <i class="far fa-heart fa-2x filled"></i>
+                    </div>
+                
+                
                     <h2>ENTRÉES</h2>
 
-                    <div class="meal">
-                            <h3>Fricassée d'escargot</h3>
-                            <div class="subtitle"><p>Au piment d'espelette</p><p class="price">25€</p></div>
-                    </div>
+                    <div class="slide-bottom-1">
 
-                    <div class="meal">
-                            <h3>Foie gras de canard mi-cuit</h3>
-                            <div class="subtitle"><p>Et ses copeaux de truffe noire</p><p class="price">35€</p></div>
-                    </div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Fricassée d'escargot
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>Au piment d'Espelette</small>
+                                    </div>
+                                </div>
+                                <div>25€</div>
+                                <div><i class="fa-solid fa-circle-check"></i></div>
+                            </div>
+                        </div>
 
-                    <div class="meal">
-                            <h3>Oeuf au plat</h3>
-                            <div class="subtitle"><p>Assaisonné à la truffe sur lit de caviar</p><p class="price">20€</p></div>
-                    </div>
-                </div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Foie gras de canard mi-cuit
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>Et ses copeaux de truffe noire</small>
+                                    </div>
+                                </div>
+                                <div>35€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
 
-                <div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Oeuf au plat
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>Assaisonné à la truffe sur lit de caviar</small>
+                                    </div>
+                                </div>
+                                <div>20€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
                     <h2>PLATS</h2>
 
-                    <div class="meal">
-                            <h3>Filet de boeuf aux herbes</h3>
-                            <div class="subtitle"><p>Accompagné de sa ribambelle de légumes</p><p class="price">40€</p></div>
-                    </div>
+                    <div class="slide-bottom-2">
 
-                    <div class="meal">
-                            <h3>Parmentier de queue de boeuf</h3>
-                            <div class="subtitle"><p>À la truffe noire sur sa purée de panais</p><p class="price">35€</p></div>
-                    </div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Filet de boeuf aux herbes
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>Accompagné de sa ribambelle de légumes</small>
+                                    </div>
+                                </div>
+                                <div>40€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
 
-                    <div class="meal">
-                            <h3>Filet de turbot</h3>
-                            <div class="subtitle"><p>Aux agrumes</p><p class="price">44€</p></div>
-                    </div>
-                </div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Parmentier de queue de boeuf
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>À la truffe noire sur sa purée de panais</small>
+                                    </div>
+                                </div>
+                                <div>35€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
 
-                <div>
+                       <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                   Filet de turbot
+                                    <br>
+                                    <small>Aux agrumes</small>
+                                </div>
+                                <div>44€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
+
+                    </div>
+                
                     <h2>DESSERT</h2>
 
-                    <div class="meal">
-                            <h3>Paris-Brest</h3>
-                            <div class="subtitle"><p>Revisité</p><p class="price">18€</p></div>
-                    </div>
+                    <div class="slide-bottom-3">
 
-                    <div class="meal">
-                            <h3>Macaron au chocolat d'exception</h3>
-                            <div class="subtitle"><p>Et glace à la vanille de Madagascar</p><p class="price">22€</p></div>
-                    </div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Paris-Brest
+                                    <br>
+                                    <small>Revisité</small>
+                                </div>
+                                <div>18€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
 
-                    <div class="meal">
-                            <h3>Mousse au chocolat </h3>
-                            <div class="subtitle"><p>Au piment d'espelette et à la truffe noire</p><p class="price">23€</p></div>
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                   Macaron au chocolat
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>Et glace à la vanille de Madagascar</small>
+                                    </div>
+                                </div>
+                                <div>22€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="meal">
+                                <div class="mealtext">
+                                    Mousse au chocolat 
+                                    <br>
+                                    <div class="ellipsis">
+                                        <small>Au piment d'Espelette et à la truffe noire</small>
+                                    </div>
+                                </div>
+                                <div>23€</div>
+                                <div><i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
+                
 
                 <h3 class="button">Commander</h3>
 
