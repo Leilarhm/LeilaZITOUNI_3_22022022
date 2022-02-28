@@ -205,24 +205,40 @@ h1, .title
 {
 	padding-top: 20px;
 	padding-right: 40px;
+	animation: rotate-center 0.5s ease-in-out both;
 
 }
 
-.fa-circle-check
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.circlecheck
 {
-	color: red;
-
+	width: 35px;
+	padding-top: 20px;
+	margin-left: -70px;
+	filter: invert(100%); /*permet de passer du noir au blanc*/
+	position: absolute;
+	animation: rotation 1.5s linear;
 }
 
-@keyframes fa-check {       /*permet rotation du check*/
-    0% { transform: rotate(0deg); }
-
-    100% 
-    { 
-    	transform: rotate(360deg);
-    }
-
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
+
+/*animation: rotate-center 0.5s ease-in-out both;*/
 
 .mealtext
 {
