@@ -201,22 +201,8 @@ h1, .title
     opacity: 1;
 }
 
-.fa-check
-{
-	padding-top: 20px;
-	padding-right: 40px;
-	animation: rotate-center 0.5s ease-in-out both;
 
-}
 
-@keyframes rotate-center {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 
 .circlecheck
@@ -226,7 +212,8 @@ h1, .title
 	margin-left: -70px;
 	filter: invert(100%); /*permet de passer du noir au blanc*/
 	position: absolute;
-	animation: rotation 1.5s linear;
+	animation: rotation 2s linear;
+	animation-iteration-count: 1;
 }
 
 @keyframes rotation {
@@ -439,11 +426,12 @@ body
 }
 
 /*effet sur cards*/ 
+
+
 .meal div:nth-of-type(1) {flex-grow: 3; padding: 5px;}
-.meal div:nth-of-type(2) {flex-grow: 0.1; padding: 25px;}
+.meal div:nth-of-type(2) {flex-grow: 0.1; padding: 15px;}
 .meal div:nth-of-type(3) {
     flex-grow: 0; 
-    font-size: 24px;
     font-weight: bold;
     padding-top: 10px;
     padding-right: 10px;
@@ -473,12 +461,33 @@ body
     opacity: 1;
 }
 
-.fa-check
-{
-	padding-top: 20px;
-	padding-right: 15px;
 
+.circlecheck
+{
+	width: 20px;
+	padding-top: 0px;
+	margin-left: 0px;
+	filter: invert(100%); /*permet de passer du noir au blanc*/
+	position: absolute;
+	animation: rotation 2s linear;
+	animation-iteration-count: 1;
 }
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.price
+{
+	margin-right: 70px;
+	margin-top: 30px;
+}
+
 
 /*effet ellipsis*/
 
