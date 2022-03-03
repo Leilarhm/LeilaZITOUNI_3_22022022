@@ -202,9 +202,6 @@ h1, .title
 }
 
 
-
-
-
 .circlecheck
 {
 	width: 35px;
@@ -405,6 +402,11 @@ body
 	border-radius: 20px 20px 20px 20px;
 }
 
+.mealtext
+{
+	font-size: 15px;
+}
+
 .meal
 {
 	width: 360px;
@@ -434,7 +436,7 @@ body
     flex-grow: 0; 
     font-weight: bold;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 100px;
     border-radius: 0px 20px 20px 0px;
     background-color: #99E2D0; 
     opacity: 0; 
@@ -465,8 +467,8 @@ body
 .circlecheck
 {
 	width: 20px;
-	padding-top: 0px;
-	margin-left: 0px;
+	padding-top: 30px;
+	margin-left: 40px;
 	filter: invert(100%); /*permet de passer du noir au blanc*/
 	position: absolute;
 	animation: rotation 2s linear;
@@ -482,11 +484,7 @@ body
   }
 }
 
-.price
-{
-	margin-right: 70px;
-	margin-top: 30px;
-}
+
 
 
 /*effet ellipsis*/

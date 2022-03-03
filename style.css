@@ -393,7 +393,7 @@ footer a:hover
 
 .reservation, .functioning, .localisation, .restaurants, footer
 {
-	width: 1500px;
+	width: 1650px;
 }
 
 .localisation 
@@ -508,7 +508,7 @@ footer a:hover
 .lot 
 {
 	margin-top: 50px;
-	margin-left: 0px;
+	margin-left: 10px;
 	display: flex;
 	flex-direction: column;
 }
@@ -516,7 +516,7 @@ footer a:hover
 .card img
 {
 	height: 700px;
-	width: 1200px;
+	width: 1500px;
 	border-style: hidden;
 	border-radius: 40px 40px 0px 0px;
 }
@@ -524,7 +524,7 @@ footer a:hover
 .card
 {
 	height:1100px;
-	width: 1200px;
+	width: 1500px;
 	border-width: 0.5px;
 	border-radius: 40px 40px 40px 40px;
 	background-color: #f7f5f5;
@@ -532,6 +532,7 @@ footer a:hover
 	margin-top: 100px;
 	box-shadow: 5px 5px 5px rgb(196, 196, 196); /*ombre portée grise*/
 }
+
 
 .new 
 {
